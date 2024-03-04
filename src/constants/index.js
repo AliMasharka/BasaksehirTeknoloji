@@ -39,17 +39,13 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Alanlarımız",
     url: "#features",
   },
-  {
-    id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
+  
   {
     id: "2",
-    title: "How to use",
+    title: "Fotoğraf Galerimiz",
     url: "#how-to-use",
   },
   {
@@ -128,21 +124,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Düşünen genç meraklı beyinlerle teknolojik ürünler  üretip gelecek zamanlara doğru yolanların hikayesi";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Düşün, Üret, Çalıstır; Gelecek için yarıştır!",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Robotikte zirveye uçan baykuşlar: sessiz uçar suskunluğu bilgeliğinden'dir.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Geleceği inşa etmek için devreleri birleştiriyoruz.",
   },
 ];
 
@@ -244,16 +240,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Mekanik",
+    text: "Herhangi bir konuda kullandığınız fiziksel maddelerle ve el aletleriyle yaptığımız her şey Mekaniktir.mekanik alanında 8 üyemiz bulunmaktadır.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Yazılım",
+    text: "Herhangi bir elektronik aygıtın  çalışması için yazilan yazı bütünü yazılımdır. takimizda 2 tane yazilimci bulunmaktadır.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +257,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Elektronik",
+    text: "Robotun bütün kablolu isleri ve elektrikli işleri elektronik oluyor. Takimizda 6 elektronik uyesi var.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Public Relations",
+    text: "Herhangi bir işte kendi adinizi kullanıp reklam yaparsaniz bu sizi tanitan pr olur takimizda 10 tane pr uyesi var.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +274,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Driver Team",
+    text: "robotun sürüsunden otonomuna kadar sorumluluğu olan kişiler driverler. Takimizda 4 kişilik bir driver teammimiz var.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Mentörler",
+    text: "Her alanda yardimci olan bizden tecrübeli hocalarimiz abilerimiz ablalarimiz canlarimiz.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -299,30 +295,30 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "https://www.instagram.com/basaksehirteknolojitakimi/",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://www.instagram.com/basaksehirteknolojitakimi/",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/basaksehirteknolojitakimi/",
   },
   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
+    url: "https://www.instagram.com/basaksehirteknolojitakimi/",
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.instagram.com/basaksehirteknolojitakimi/",
   },
 ];

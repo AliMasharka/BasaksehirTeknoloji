@@ -23,9 +23,9 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities of&nbsp;Ali&nbsp;Dev with {` `}
+            Takımımızın&nbsp;Yeteneklerini&nbsp;Web Sitemizle {` `}
             <span className="inline-block relative">
-              Protfolio{" "}
+              Keşfedin{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,10 +36,10 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          Ali Mcharka, I am a 10th grade student. I have been enthusiastic about code and technology since I was 8 years old. I realized this passion and became a senior developer. 
+          FIRST Team 9132 Başakşehir teknoloji takımı (BTT) bir FRC takımıdır. BTT olarak tek bir okul ile sınırlı kalmayıp 7 farklı okuldan 34 üyeyi bünyemizde bulundurarak takım içerisinde sosyal bir ortam oluşturduk...
           </p>
           <Button href="/pricing" white>
-            Read More About Me
+            Hakkımızda Daha Fazla Bilgi Edin
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
@@ -71,7 +71,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Ma Niggas"
+                    title="#Bosphorus 2024"
                   />
                 </ScrollParallax>
               </div>

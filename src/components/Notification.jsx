@@ -1,5 +1,5 @@
 import { notification1 } from "../assets";
-import { notificationImages } from "../constants";
+// import { notificationImages } from "../constants";
 
 const Notification = ({ className, title }) => {
   return (
@@ -36,7 +36,7 @@ const Notification = ({ className, title }) => {
               </li>
             ))}
           </ul> */}
-          <div className="body-2 text-n-13">My big nigga bro Omar Salam.</div>
+          <div className="body-2 text-n-13">Bosphorus 2023 Finalist</div>
         </div>
       </div>
     </div>
