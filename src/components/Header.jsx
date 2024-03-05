@@ -71,10 +71,10 @@ const Header = () => {
           href="#signup"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
-          New account
+          
         </a>
-        <Button className="hidden lg:flex" href="#login">
-          Sign in
+        <Button className="hidden lg:flex" href="https://docs.google.com/forms/d/e/1FAIpQLScoe6jTnH1Ef2VXTb4VS5G7tv3xNsuDWEL3HhlBiKmp97R4UQ/viewform">
+          Takıma Katıl
         </Button>
 
         <Button

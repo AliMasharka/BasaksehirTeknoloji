@@ -42,6 +42,12 @@ export const navigation = [
     title: "Alanlarımız",
     url: "#features",
   },
+
+  {
+    id: "1",
+    title: "Vizyon, Misyon",
+    url: "#pricing",
+  },
   
   {
     id: "2",
@@ -61,8 +67,8 @@ export const navigation = [
   },
   {
     id: "5",
-    title: "Sign in",
-    url: "#login",
+    title: "Takıma Katıl",
+    url: "",
     onlyMobile: true,
   },
 ];
@@ -74,9 +80,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "22 Kişilik Ekip",
+  "Alanlar Dağılımı Eşit",
+  "10/10 Mentör Hocalarımız",
 ];
 
 export const brainwaveServicesIcons = [
@@ -90,26 +96,26 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Takımımızın adı neden BTT?",
+    text: "Başakşehir Belediyesi ve Başakşehir İlçe Milli Eğitim Bakanlığı tarafından kurulmuş çevre okullardan oluşan karma bir teknoloji takımı olduğumuz için takımımızın adı BTT (Başakşehir Teknoloji Takımı).",
+    date: "Şubat 2024",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "Bize neden sponsor olmalısınız?",
+    text: "Sponsorluğunuz, sözlerden çok eylemleri değerlendiren, sürekli olarak markanızı tanıtan malzemelerde önemli pazarlama maruziyeti sunan bir gruba destek olur. Belgeler ve sertifikalarla ilgili teşekkürlerden faydalanarak markanızın teknoloji alanına desteklediğinizi gösterir.",
+    date: "Şubat 2024",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "Güncel yarışmalarımız ve kazandığımız ödüller?",
+    text: "2023 sezonunda BOSPHORUS Regional’da Finalist Ödülü alarak rookie senemizi finalistlik ile taçlandırdık. 2024 sezonu içerisinde FRC Türkiye ve bölgesel yarışmalara ek olarak 2024 Houston FRC World Championship için hazırlıklarımızı sürdürüyoruz.",
+    date: "Regional 2023",
     status: "done",
     imageUrl: roadmap3,
   },
@@ -117,7 +123,7 @@ export const roadmap = [
     id: "3",
     title: "Integration with APIs",
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    date: "Şubat 2024",
     status: "progress",
     imageUrl: roadmap4,
   },
@@ -204,35 +210,34 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Vizyonumuz",
+    description: "First Robotics Competition da mükemmeliği yakalamak.",
+    price: "",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "teknolojik yeniliklere adanmış bir topluluk oluşturmaktır.",
+      "küresel tanınmaya adanmış bir topluluk oluşturmaktır.",
+      "Yenilikçi teknolojiye odaklanan bir takım oluşturmak",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Misyonumuz",
+    description: "Disiplinli çalışma, sürekli öğrenme ve işbirliğine bağlılıkla, geleceğin liderlerini ilham vermek.",
+    price: "",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Hedefimiz Başakşehir'i teknoloji ile öne çıkan bir merkez haline getirmektir.",
+      "Gençler gibi düşünmeyi, gençlerle birlikte hareket etmeyi ve gençlere öncü olmaya özen gösteren.",
+      "FRC, öğrencilerin hem teknik hem de teknik olmayan alanlarda endüstri standardı beceriler kazanmak için çalışıyoruz.",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Ödüllerimiz",
+    description: "Katıldığdımız yarışmalarda gösterdiğimiz başarılar.",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Bosphorus Regıonal 2023 Finalist",
+      "2024 sezonu içerisinde FRC Türkiye ve bölgesel yarışmalara katılım sağlayacağız.",
+      "2024 Houston FRC World Championship için hazırlıklarımızı sürdürüyoruz.",
     ],
   },
 ];
