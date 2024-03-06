@@ -1,12 +1,10 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2, service3, check } from "../assets";
+import { service1, service2, service3 } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
   PhotoChatMessage,
   Gradient,
-  VideoBar,
-  VideoChatMessage,
 } from "./design/Services";
 
 import Generating from "./Generating";
@@ -33,9 +31,9 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Yarışma günü ekip</h4>
+              <h4 className="h4 mb-4"></h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Daha fazla fotoğraflar ve eğlenceli videolar için sosyla medyadan bizi takip edin.
+                
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -43,7 +41,6 @@ const Services = () => {
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
                   >
-                    <img width={24} height={24} src={check} />
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}
@@ -78,10 +75,9 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Regionla 2023 robotumuz ve özellikleri</h4>
+                <h4 className="h4 mb-4">Regionla 2023 driver team.</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  
                 </p>
 
                 <ul className="flex items-center justify-between">
@@ -117,8 +113,8 @@ const Services = () => {
                   alt="Scary robot"
                 />
 
-                <VideoChatMessage />
-                <VideoBar />
+                
+                
               </div>
             </div>
           </div>

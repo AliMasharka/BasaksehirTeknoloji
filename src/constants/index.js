@@ -80,9 +80,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "22 Kişilik Ekip",
-  "Alanlar Dağılımı Eşit",
-  "10/10 Mentör Hocalarımız",
+  "",
+  "",
+  "",
 ];
 
 export const brainwaveServicesIcons = [

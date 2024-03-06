@@ -23,7 +23,7 @@ const Pricing = () => {
 
         <Heading
           tag="Takım Hakkında Önemli"
-          title="Misyonumuz, Vizyonumuz ve Olanaklarımız"
+          title="Misyonumuz, Vizyonumuz ve Ödüllerimiz"
         />
 
         <div className="relative">
