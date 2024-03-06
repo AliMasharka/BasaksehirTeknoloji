@@ -69,7 +69,7 @@ const Roadmap = () => (
       </div>
 
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">Sosyal Medya Hesaplarını Takip Edin</Button>
+        <Button href="https://www.instagram.com/basaksehirteknolojitakimi/">Sosyal Medya Hesaplarını Takip Edin</Button>
       </div>
     </div>
   </Section>

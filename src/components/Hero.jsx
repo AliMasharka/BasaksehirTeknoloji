@@ -7,7 +7,7 @@ import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
-import CompanyLogos from "./CompanyLogos";
+// import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -38,7 +38,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           FIRST Team 9132 Başakşehir teknoloji takımı (BTT) bir FRC takımıdır. BTT olarak tek bir okul ile sınırlı kalmayıp 7 farklı okuldan 34 üyeyi bünyemizde bulundurarak takım içerisinde sosyal bir ortam oluşturduk...
           </p>
-          <Button href="/pricing" white>
+          <Button href="https://www.instagram.com/basaksehirteknolojitakimi/33" white>
             Hakkımızda Daha Fazla Bilgi Edin
           </Button>
         </div>
@@ -92,7 +92,7 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
 
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
+        {/* <CompanyLogos className="hidden relative z-10 mt-20 lg:block" /> */}
       </div>
 
       <BottomLine />

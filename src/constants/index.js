@@ -121,8 +121,8 @@ export const roadmap = [
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    title: "Atölyemizin konumu",
+    text: "Başak, Mevlana Celaleddin Rumi Cd., 34480 Başakşehir/İstanbul Şehit Haki Aras Kız Anadolu İmam Hatip Lisesi.",
     date: "Şubat 2024",
     status: "progress",
     imageUrl: roadmap4,
