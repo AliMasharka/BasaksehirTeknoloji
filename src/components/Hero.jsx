@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Takımımızın&nbsp;Yeteneklerini&nbsp;Web Sitemizle {` `}
             <span className="inline-block relative">
-              Nigga{" "}
+              Ali{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
